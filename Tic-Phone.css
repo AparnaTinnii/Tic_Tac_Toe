@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 20px;
+    margin: 10px;
+    width: 128vw;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container {
+    padding: 20px;
+    margin: 35px 6px;
+    width: 128vw;
+    height: 116vh
+}
+
+.game {
+    height: 100vh;
+}
+
+.btn {
+    height: 15vh;
+    width: 31vw;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.msg-popup {
+    margin-bottom: 180px;
+}
+
+#msg {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.new-btn {
+    margin-top: 20px;
+    width: 257px;
+    font-size: 34px;
+    padding: 8px;
+
+    border-radius: 18px;
+}
+
+.reset {
+    margin-bottom: 20px;
+    width: 257px;
+    font-size: 34px;
+    padding: 8px;
+
+    border-radius: 18px;
+}

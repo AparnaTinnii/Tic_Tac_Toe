@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+    margin: 16px auto;
+    width: 600px;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 22px;
+    padding: 14px;
+    margin: 16px auto;
+    width: 600px;
+}
+.game{
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    text-align: center;
+}
+.lines{
+    display: flex;
+    gap: 6px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 2px black;
+    border-radius: 4px;
+    background-color: yellow;
+    color:  red;
+    font-size: 30px;
+}
+.btn:active{
+    background-color: rgb(222, 222, 135);
+}
+.msg-popup{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.hide{
+    display: none;
+}
+.reset{
+    width: 100px;
+    padding: 6px 4px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 1px rgb(118, 104, 104);
+    border-radius: 4px;
+   
+}
+.new-btn{
+    width: 100px;
+    padding: 6px 4px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 1px rgb(118, 104, 104);
+    border-radius: 4px;
+}
+
+#msg{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
